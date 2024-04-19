@@ -1,0 +1,6 @@
+venv
+__pycache__
+*.tw_session
+隐私声明*
+datas/*
+*.csv
