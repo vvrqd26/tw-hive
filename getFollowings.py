@@ -106,7 +106,7 @@ def get_user_tweets(account: str):
                 '%Y-%m-%d %H:%M:%S')
             tweets.to_csv(filename, index=False)
             ethereum_address_pattern = r'0x([A-Fa-f0-9]{40})'
-            tags = ['whitelist', 'airdrop', 'whitelists', 'wl', 'launch']
+            tags = ['whitelist', 'airdrop', 'whitelists', 'wl', 'launch','live','test']
             # 匹配标签
             tags_pattern = r'\b(' + '|'.join(tags) + r')\b'
             ndf1 = tweets[['id', 'text', 'author',
